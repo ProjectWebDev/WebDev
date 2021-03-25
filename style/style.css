@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+}
+
+
+/* CLASSI DEI FONT */
+.big-text{font-size: 70px;font-weight: 900;}
+.med-text{font-size: 40px;}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 14px;}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background: #333;
+    color:#fff;
+}
+
+.logo{
+    padding: 0px 20px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu p{
+    padding: 0px 40px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.menu p:hover{
+    color: #6b5ba7;
+}
+
+.block-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0px 30px;
+}
+
+.circle-box {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #000;
+    margin: 0px 30px;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.circle img{
+    width: 15px;
+    height: 15px;
+}
+
+#moon {
+    display: none;
+    color: #fff;
+}
